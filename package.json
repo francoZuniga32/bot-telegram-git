@@ -1,0 +1,31 @@
+{
+  "name": "git-bot-telegram",
+  "version": "0.0.1",
+  "description": "un bot de telegram para el manejo y control de repositorios en el servidor de produccion, sirve para hacer comits, pull, pull, ver los estados historiales, etc'. Ademas de que sirve como forma de poder realizar acciones mediante telegram en tus repos desde por ejemplo tu celular.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoZuniga32/bot-telegram-git.git"
+  },
+  "keywords": [
+    "git",
+    "bot-telegram",
+    "gestion"
+  ],
+  "author": "pan32",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francoZuniga32/bot-telegram-git/issues"
+  },
+  "homepage": "https://github.com/francoZuniga32/bot-telegram-git#readme",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
