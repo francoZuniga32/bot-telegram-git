@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/francoZuniga32/bot-telegram-git#readme",
   "dependencies": {
+    "drivelist": "^9.0.2",
     "telegraf": "^3.38.0"
   },
   "devDependencies": {
