@@ -26,8 +26,12 @@ bot.command('git', (contexto)=>{
 });
 
 bot.command('os', (contexto)=>{
-    console.log(os.cpus());
-    contexto.reply(`Cpus: ${os.cpus().model} , Memoria (Kb): ${os.totalmem()}, Memoria libre (Kb) ${os.freemem()}`);
+    var cpus = os.cpus();
+    var salidaCpu = "";
+    for (let i = 0; i < cpus.length; i++) {
+        salidaCpu += `Cpu ${i+1}: ${cpus[i].model} \n`;
+    }
+    contexto.reply(salidaCpu);
 });
 
 
