@@ -53,4 +53,5 @@ bot.command('nickuser', (contexto) => {
    contexto.reply('buenas '+contexto.from.first_name);
 });
 
+//pon
 bot.launch();
