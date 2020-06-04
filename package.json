@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/francoZuniga32/bot-telegram-git#readme",
   "dependencies": {
+    "agenda": "^3.1.0",
     "drivelist": "^9.0.2",
     "telegraf": "^3.38.0"
   },
